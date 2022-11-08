@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+h1::after{
+    content: "";
+    height: 2px;
+    width: 300px;
+    color: red;
+    background-color: rgb(58, 62, 66);
+    position: absolute;
+    margin: 40px 0 0 -293px;
+    
+}
+form{
+    background-color: rgb(58, 62, 66);
+    margin: 20px 300px;
+    border: 1px solid black;
+    padding-top: 20px;
+    border-radius: 4px;
+}
+input{
+    margin-bottom: 20px;
+    margin-left: 23%;
+    padding: 10px;
+    width: 50%;
+    font-size: medium;
+    border-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    margin-left: 310px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    font-size: 19px;
+}
